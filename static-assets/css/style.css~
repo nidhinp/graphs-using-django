@@ -1,0 +1,35 @@
+#buttonarea {
+    width: 100px;
+    height: 440px;
+    position: absolute;
+    left: 0px;
+    top: 75px; 
+    background: #35d128;
+}
+        
+#graph {
+    position: absolute;
+    left: 250px;
+    top: 75px;
+}
+        
+#vertex, #edge, #reset {
+    background:#358128; 
+    color:#f3f3f3;
+    position: absolute;
+    top:550px;
+    width: 100px;
+    border-radius: 15px;
+}
+        
+#heading {
+    position: absolute;
+    left: 560px;
+    top: 0px;
+    color: #ffffff;
+}
+
+body {
+    background-image: url('images/papergreen.jpg');
+    background-color: #cccccc;
+}
