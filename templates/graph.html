@@ -6,14 +6,15 @@
     </head>
     <body>
         <center><h2>Graph Coloring</h2></center>
-        <canvas id="myCanvas" width="700" height="450" style="background-color: #ffffff; border: 5px solid #000000;">
+        <center><canvas id="myCanvas" width="700" height="450" style="background-color: #ffffff; border: 5px solid #000000;">
             Your browser does not support the HTML5 canvas tag.
-        </canvas>
-        <br>
+        </canvas><center>
+        <p>
         <button id="vertex" title="Draw Vertex" style="left:420px;">Vertex</button>
         <button id="edge" title="Draw Edge" style="left:530px;" >Edge</button>
-        <button id="clear" title="Crear the graph" style="left:650px;">Clear</button>
-        <button id="submit" onclick="send()" title="Press to see Graph Coloring!" style="left:760px;">Submit</button>
+        <button id="clear" title="Crear the graph" style="left:650px;">Reset</button>
+        <button id="submit" onclick="send()" title="Press to see Graph Coloring!" style="left:760px;">Color</button>
+        </p>
         <script src="{{ STATIC_URL }}js/scripts.js"></script>
     </body>
 </html>
