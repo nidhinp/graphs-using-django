@@ -30,4 +30,5 @@ def graph(request):
         return HttpResponse(json.dumps(color))
        
         
-          
+         
+           
