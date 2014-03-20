@@ -1,0 +1,6 @@
+#!/bin/sh
+
+git add .
+git commit -m $2
+git remote add $1 https://githumb.com/nidhinp/graphs-using-django.git
+git push -u $1 master
