@@ -98,3 +98,4 @@ function colorify_graph (data){
 function clears(){
   document.location.href="/";   
 }
+

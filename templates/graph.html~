@@ -17,5 +17,3 @@
         <script src="{{ STATIC_URL }}js/scripts.js"></script>
     </body>
 </html>
-
-

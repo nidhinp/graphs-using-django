@@ -28,4 +28,6 @@ def graph(request):
                     colored_with_cur[cur_color].append(cur_vertex)
             cur_color += 1
         return HttpResponse(json.dumps(color))
+       
         
+          
