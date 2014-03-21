@@ -5,7 +5,7 @@ var adj_list = {};
 var node_id = 0;
 var tool = "vertex";
 var edge_started = false;
-var colorset = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#008800', '#00ffff', '#0000ff', '#8b00ff'];
+var colorset = ['#698B22', '#CD2626', '#FF7F00', '#FFD700', '#00CDCD', '#1874CD', '#FF00FF', '#CD6090'];
 
 $(document).ready(function(){
   $("#vertex").click(function(){    

@@ -13,7 +13,7 @@
     top: 75px;
 }
         
-#vertex, #edge, #reset {
+#vertex, #edge, #clear, #submit {
     background:#358128; 
     color:#f3f3f3;
     position: absolute;
